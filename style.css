@@ -1,0 +1,363 @@
+/*
+ Theme Name:     CoMotiv - Divi Child
+ Theme URI:      https://www.elegantthemes.com/gallery/divi/
+ Description:    CoMotiv - Divi Child Theme
+ Author:         Mood
+ Author URI:     http://lightsoutinteractive.com/
+ Template:       Divi
+ Version:        0.0.1
+*/
+
+
+/* =Theme customization starts here
+------------------------------------------------------- */
+
+/* Body Overflow - For Responsive */
+body,
+html {
+    overflow-x: hidden;
+}
+
+body #page-container {
+    overflow-x: hidden;
+}
+
+/* Heading Styles */
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6 {
+
+}
+
+body span.break {
+    display: block;
+}
+
+
+
+#et_search_icon:hover, 
+.mobile_menu_bar:before, 
+.mobile_menu_bar:after, 
+.et-social-icon a:hover, 
+.comment-reply-link, 
+.form-submit .et_pb_button, 
+.entry-summary p.price ins, 
+.wp-pagenavi span.current, 
+.wp-pagenavi a:hover, 
+.et_password_protected_form .et_submit_button, 
+.nav-single a, .posted_in a, 
+#top-menu li.current-menu-ancestor > a, 
+#top-menu li.current-menu-item > a, 
+.bottom-nav li.current-menu-item > a, 
+.footer-widget h4 {
+    color: #ca8342;
+}
+
+
+
+
+
+
+
+/* Coaching Request Table */
+body table.coaching_grid tr {
+    border-bottom: 1px solid #804c3b;
+    padding: 20px;
+}
+
+body table.coaching_grid tr:last-of-type {
+    border: none;
+}
+
+body table.coaching_grid tr td {
+    padding: 20px 15px !important;
+}
+
+
+
+/* Full Height Divi Module */
+body #app_full_height {
+    height: 100vh;
+}
+
+body #app_full_height .et_pb_menu--without-logo .et_pb_menu__menu > nav > ul > li {
+    width: 100%;
+}
+
+
+/* Ultimate Member */
+body #app_full_height .member_thumbnail .um-profile-note {
+    display: none !important;
+}
+
+body #app_full_height .member_thumbnail .um-profile.um .um-name a {
+    color: #fff !important;
+}
+
+body #app_full_height .member_thumbnail .um-profile.um .um-name a:hover {
+    opacity: 0.9;
+}
+
+body #app_full_height .member_thumbnail .um-header {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+body #app_full_height .member_thumbnail .um-profile-body {
+    display: none;
+}
+
+body #app_full_height .member_thumbnail .um-profile-edit {
+    display: none;
+}
+
+body #app_full_height .member_thumbnail .um-profile-photo a.um-profile-photo-img {
+    border: none !important;
+}
+
+body #app_full_height .mobile_menu_bar {
+    margin: 0 5px 10px 0;
+}
+
+body #app_full_height .et_mobile_menu {
+    background-color: #51312D !important;
+}
+
+
+/* Divi Filter Grid */ 
+body #app_full_height .dp-dfg-layout-list .dp-dfg-items {
+    display: block;
+}
+
+body #app_full_height .dp-dfg-layout-list .dp-dfg-item {
+    border-bottom: 1px solid #804c3b;
+    display: block;
+    padding: 25px;
+}
+
+body #app_full_height .dp-dfg-layout-list .dp-dfg-item:last-of-type {
+    border: none;
+}
+
+
+/* Coaching Request List - Shortcode */
+body #app_full_height .coaching_request_list {
+    /*margin: 0 25px;*/
+}
+
+
+body #app_full_height .coaching_request_list .request {
+    border-bottom: 1px solid #804c3b;
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+}
+
+body #app_full_height .coaching_request_list .request h3 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.4em;
+}
+
+body #app_full_height .coaching_request_list .request h4 {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.4em;
+}
+
+body #app_full_height .coaching_request_list .request:last-of-type {
+    border: none;
+}
+
+/* Comments */
+body #comment-wrap {
+    padding-top: 15px;
+}
+
+body .comment-body {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+body .comment_avatar {
+    max-width: 100px;
+    position: static;
+}
+
+body .comment_postinfo {
+    width: 100%;
+}
+
+body .comment_area {
+    width: 100%;
+}
+
+
+body.single-coaching-request .comment-body {
+    padding-left: 0 !important;
+}
+
+body.single-coaching-request #comment-wrap #comments {
+    padding-bottom: 25px;
+}
+
+
+
+/* Ultimate Member */
+body .um-button,
+body .um input[type=submit].um-button, 
+body .um input[type=submit].um-button:focus, 
+body .um a.um-button, 
+body .um a.um-button.um-disabled:hover, 
+body .um a.um-button.um-disabled:focus, 
+body .um a.um-button.um-disabled:active {
+    background: #804c3b;
+    border-radius: 50px !important;
+    color: #fff;
+    font-weight: 700 !important;
+    margin: 15px 0;
+}
+
+body .um input[type=submit].um-button:hover,
+body .um a.um-button:hover {
+    background: #ca8342;
+}
+
+
+/* Restirct Content */
+body .rcp-button,
+body .rcp_button {
+    background: #804c3b;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 25px;
+    text-transform: uppercase;
+}
+
+
+body #rcp_apply_discount {
+    border-radius: 0;
+    padding: 10px 25px;
+    font-size: 14px;
+    text-transform: none;
+}
+
+
+body .rcp_form input[type="text"], 
+body .rcp_form input[type="password"], 
+body .rcp_form input[type="email"] {
+    padding: 10px;
+}
+
+
+
+
+body #main-footer .container {
+    max-width: 95%;
+    width: 95%;
+}
+
+.et-social-google-plus a.icon:before {
+    content: '\e09d';
+}
+
+
+
+
+/**************** Media Queries */
+@media (max-width: 1200px) {
+
+    body .csr_tabs table {
+        width: 50%;
+    }
+
+}
+
+@media (max-width: 1100px) {
+
+    body #main-header .social_menu li a {
+        font-size: 0;
+    }
+
+
+}
+
+
+/* Tablet and DOWN */
+@media (max-width: 980px) {
+
+    body.et_fullwidth_nav #main-header .container {
+        width: 90%;
+    }
+
+    body.et_header_style_left #logo {
+        max-width: 75%;
+    }
+
+    body #main-header .social_menu {
+        left: 145px;
+    }
+
+    body .csr_tabs table {
+        width: 100% !important;
+    }
+
+    body #app_full_height .et_pb_menu {
+        bottom: 0px;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        width: 100%;
+    }
+
+}
+
+/* Mobile Down */
+@media (max-width: 767px) {
+
+    /* Landing Page */
+    #csr-header .contact a span,
+    #csr-footer .contact a span {
+        display: none;
+    }
+
+    #csr-header .contact a,
+    #csr-footer .contact a {
+        margin: 0 5px;
+    }
+
+    body #csr-header .et_pb_column {
+        margin-bottom: 10px !important;
+    }
+
+    body .entry-content a.btn {
+        display: block;
+        margin-top: 10px;
+    }
+
+    body #main-header .social_menu {
+        display: none;
+    }
+
+}
+
+/* Mobile Down */
+@media screen and (max-width: 480px) {
+
+    body .owl-carousel .owl-nav button.owl-prev,
+    body .owl-carousel .owl-nav button.owl-next {
+        display: none;
+    }
+
+    body ul.checklist {
+        width: 100%;
+    }
+
+}
